@@ -1,0 +1,2 @@
+INSERT INTO `the_cake_is_a_lie`.`recipe` (`name`, `description`, `ingredients`, `method`, `cooking_time`, `prep_time`, `yield`, `author`, `date_added`) VALUES ('Recipe 1', 'A test description', 'These are the ingredients', 'This is the method', '00:15:00', '00:45:00', 'Serves 4 people', 1, '');
+INSERT INTO `the_cake_is_a_lie`.`recipe` (`name`, `description`, `ingredients`, `method`, `cooking_time`, `prep_time`, `yield`, `author`) VALUES ('Paella', 'Tastes good', 'Prawns', 'Heat', '00:30:00', '00:20:00', 'Serves 2', 1);
