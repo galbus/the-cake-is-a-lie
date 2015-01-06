@@ -1,5 +1,9 @@
 # The Cake is a Lie - JSON RESFful API
 
+## Note
+
+*This project is a CodeIgniter demonstration for a job application and, as such, it is incomplete. The primary purpose is to demonstrate technical understanding, coding standards and documentation standards, not to function as working software.*
+
 ## Overview
 
 This API enables you to take part in a cake voting content. Mmmmmmm.
@@ -36,14 +40,14 @@ Adds a recipe to the system.
 
 #### Parameters
 
-name: (String) 100 chars or less
-description: (String) 250 chars or less
-ingredients: (String) 10,000 chars or less
-method: (String) 10,000 chars or less
-cooking_time: (Time, Optional) HH:MM:SS
-prep_time: (Time, Optional) HH:MM:SS
-yield: (String, Optional) 100 chars or less
-author: (Integer) A valid user ID
+* **name**: (String) 100 chars or less
+* **description**: (String) 250 chars or less
+* **ingredients**: (String) 10,000 chars or less
+* **method**: (String) 10,000 chars or less
+* **cooking_time**: (Time, Optional) HH:MM:SS
+* **prep_time**: (Time, Optional) HH:MM:SS
+* **yield**: (String, Optional) 100 chars or less
+* **author**: (Integer) A valid user ID
 
 #### Returns
 
@@ -75,8 +79,8 @@ Registers a vote for a recipe. Although users users can vote for as many differe
 
 #### Parameters
 
-recipe: (Integer) A valid recipe ID
-author: (Integer) A valid user ID
+* **recipe**: (Integer) A valid recipe ID
+* **author**: (Integer) A valid user ID
 
 #### Returns
 
